@@ -4,4 +4,5 @@ ENV MYSQL_DATABASE mydb
 ENV MYSQL_USER naresh
 ENV MYSQL_PASSWORD P@ssword
 
-
+COPY . /authorapp
+ADD my.cnf /etc/mysql/my.cnf
