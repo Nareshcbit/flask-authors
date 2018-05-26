@@ -1,4 +1,4 @@
-FROM mysql:latest
+FROM mysql:8.0.11
 ENV MYSQL_ROOT_PASSWORD P@ssword
 ENV MYSQL_DATABASE mydb
 ENV MYSQL_USER naresh
