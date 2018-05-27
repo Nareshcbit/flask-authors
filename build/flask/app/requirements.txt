@@ -1,5 +1,5 @@
 flask
-mysql-python == 1.2.4
+MySQL-python
 mysql-connector
 flask-sqlalchemy
 flask-migrate
