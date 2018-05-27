@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:2.7
 RUN apt-get update
 COPY . /webapp
 RUN apt-get install -y python-pip python-dev default-libmysqlclient-dev
