@@ -1,8 +1,8 @@
 FROM python:3.6
 RUN apt-get update
 COPY . /webapp
-RUN sudo apt-get install python3-pip
-RUN sudo pip3 install --upgrade pip
+RUN apt-get install python3-pip
+RUN pip3 install --upgrade pip
 RUN pip3 install --no-cache-dir -r /webapp/app/requirements.txt
 ENV FLASK_ENV="docker"
 
