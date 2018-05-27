@@ -1,2 +1,5 @@
 flask
+mysql-python
 mysql-connector
+flask-sqlalchemy
+flask-migrate
